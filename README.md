@@ -1,20 +1,22 @@
-A website built by me about me. Name describes pretty-much everything.
-Built using CSS, java, and HTML.
+# About Me
 
-Features:
-Contact me
-My skills
-Some of my projects
-About me
+A personal portfolio website featuring my  projects, and technical skill set.
 
-Getting Started:
-To view this project locally on your machine:
+## Features
+* **Featured Projects:** About my projects. 
+* **My Skills:** Coding languages I have used so far.
+* **Contact:** A way to connect with me, to give feedback!
 
-Clone or download the repository:
+## Languages Used
 
-Bash
-git clone https://github.com/ShauryaBhasin11/about-me.git
-Open the project folder.
-Open index.html in any web browser.
+* **HTML.
+*  **CSS.
+*  ** Java.
+*  
+## Getting Started
 
-Hope you like it!
+To view and run this project locally on your machine:
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/ShauryaBhasin11/about-me.git](https://github.com/ShauryaBhasin11/about-me.git)
