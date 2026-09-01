@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+```
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SB | Portfolio</title>
+
+<meta
+    name="description"
+    content="Personal portfolio of Shaurya, a student developer showcasing coding projects and skills."
+>
+
+<meta name="author" content="Shaurya Bhasin">
+
+<meta name="theme-color" content="#111111">
+
+<link rel="icon" type="image/png" href="favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+>
+
+<link rel="stylesheet" href="style.css">
+```
+
+</head>
+
+<body>
+
+```
+<!-- ================= BACKGROUND MUSIC ================= -->
+
+<audio id="bgMusic" loop>
+
+    <source src="music/lofi.mp3" type="audio/mpeg">
+
+    Your browser does not support audio.
+
+</audio>
+
+
+<!-- ================= NAVBAR ================= -->
+
+<nav>
+
+    <a href="#home" class="logo">
+        SB.dev
+    </a>
+
+    <div class="nav-actions">
+
+        <button
+            id="musicToggle"
+            class="theme-btn"
+            title="Background Music"
+            aria-label="Play background music"
+        >
+            🎵
+        </button>
+
+        <button
+            id="themeToggle"
+            class="theme-btn"
+            aria-label="Switch to dark mode"
+        >
+            🌙
+        </button>
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+        </ul>
+
+    </div>
+
+</nav>
+
+
+<!-- ================= MAIN ================= -->
+
+<main class="container">
+
+
+    <!-- ================= HOME ================= -->
+
+    <section id="home" class="active">
+
+        <div class="hero-card">
+
+            <div class="hero-content">
+
+                <div class="hero-left">
+
+                    <h1 class="hero-title">
+
+                        Shaurya <span>Bhasin</span>
+
+                    </h1>
+
+                    <p class="hero-description">
+
+                        I'm a student who enjoys coding and building
+                        small projects to learn new technologies.
+
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <button
+                            id="projectsBtn"
+                            class="primary-btn"
+                        >
+                            View Projects
+                        </button>
+
+                        <button
+                            id="contactBtn"
+                            class="secondary-btn"
+                        >
+                            Contact
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-right">
+
+                    <div class="profile-circle">
+
+                        <span>SB</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about">
+
+        <div class="about-card">
+
+            <div class="about-image">
+
+                <div class="image-box">
+                    👨‍💻
+                </div>
+
+            </div>
+
+            <div class="about-content">
+
+                <h2>About Me</h2>
+
+                <p>
+
+                    I'm a student interested in programming and web
+                    development. I like building projects, trying out
+                    new ideas, and learning from the things I make.
+
+                </p>
+
+
+                <div class="about-tags">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Python</span>
+                    <span>Git</span>
+
+                </div>
+
+
+                <div class="about-stats">
+
+                    <div class="stat-box">
+
+                        <h3>2</h3>
+
+                        <p>Projects</p>
+
+                    </div>
+
+
+                    <div class="stat-box">
+
+                        <h3>40</h3>
+
+                        <p>Hours Coding</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills">
+
+        <div class="skills-container">
+
+            <h2>Skills</h2>
+
+            <p>
+                Some of the technologies and tools I've been learning.
+            </p>
+
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+
+                    <h3>HTML</h3>
+
+                    <span>Web Structure</span>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>CSS</h3>
+
+                    <span>Web Styling</span>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>JavaScript</h3>
+
+                    <span>Web Interactivity</span>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>Python</h3>
+
+                    <span>Programming</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects">
+
+        <div class="projects-container">
+
+            <h2>Projects</h2>
+
+            <p>
+                A few projects I've built while learning to code.
+            </p>
+
+
+            <div class="projects-grid">
+
+
+                <!-- PROJECT 1 -->
+
+                <div class="project-card">
+
+                    <h3>Mini OS</h3>
+
+                    <p>
+
+                        A mini operating system-inspired web experience I made for fun,
+                        using browser UI interactions and playful desktop-style design.
+
+                    </p>
+
+
+                    <div class="tech-stack">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+
+                    <div class="project-buttons">
+
+                        <a
+                            href="https://shauryabhasin11.github.io/mini-os/"
+                            class="primary-btn"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Live Demo
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROJECT 2 -->
+
+                <div class="project-card">
+
+                    <h3>Catch the Stars</h3>
+
+                    <p>
+
+                        A small browser game built with HTML, CSS,
+                        and JavaScript. The project helped me practice
+                        JavaScript events and game logic.
+
+                    </p>
+
+
+                    <div class="tech-stack">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+
+                    <div class="project-buttons">
+
+                        <a
+                            href="https://shauryabhasin11.github.io/Catch-the-stars-/"
+                            class="primary-btn"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Live Demo
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROJECT 3 -->
+
+                <div class="project-card">
+
+                    <h3>Next Project</h3>
+
+                    <p>
+
+                        I'm currently working on another personal
+                        project and will add it here when it's ready.
+
+                    </p>
+
+
+                    <div class="tech-stack">
+
+                        <span>Coming Soon</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact">
+
+        <div class="contact-card">
+
+            <h2>Contact Me</h2>
+
+            <p>
+
+                If you'd like to get in touch, you can send me an email.
+
+            </p>
+
+
+            <div class="contact-links">
+
+                <a
+                    href="mailto:your@email.com"
+                    class="primary-btn"
+                >
+                    Email Me
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <p>
+        &copy; 2026 Shaurya Bhasin. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+<!-- ================= VISITOR COUNTER ================= -->
+
+<div class="visitor-counter">
+
+    <div class="visitor-title">
+        Visitors
+    </div>
+
+    <div id="visitor-count">
+        Loading...
+    </div>
+
+</div>
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script src="script.js"></script>
+```
+
+</body>
+
+</html>
