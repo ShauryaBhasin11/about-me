@@ -1,6 +1,12 @@
 A website built by me about me. Name describes pretty-much everything.
 Built using CSS, java, and HTML.
 
+Features:
+Contact me
+My skills
+Some of my projects
+About me
+
 Getting Started:
 To view this project locally on your machine:
 
