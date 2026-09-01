@@ -12,7 +12,7 @@ A personal portfolio website featuring my  projects, and technical skill set.
 * **HTML.
 *  **CSS.
 *  ** Java.
-*  
+  
 ## Getting Started
 
 To view and run this project locally on your machine:
@@ -22,3 +22,11 @@ To view and run this project locally on your machine:
    git clone [https://github.com/ShauryaBhasin11/about-me.git](https://github.com/ShauryaBhasin11/about-me.git)
 
 Hope you get to know about me from this website and like this project.
+
+
+
+
+
+
+
+                                
